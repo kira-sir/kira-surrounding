@@ -1,0 +1,53 @@
+.project{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.switch_tab{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.show{
+  line-height: 100rpx;
+  text-align: center;
+  flex: 1;
+  color: black;
+  font-size: 28rpx;
+  opacity: 0.5;
+}
+
+.hidden{
+  line-height: 100rpx;
+  text-align: center;
+  color: blue;
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.switch_underline{
+  background: rgb(53, 92, 79);
+  width: 54rpx;
+  height: 8rpx;
+  margin-top: -20rpx;
+  margin-left: 163rpx;
+  border-radius: 8rpx;
+}
+
+.project1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 1px solid brown;
+  border-radius: 20rpx;
+  background-color: rgb(149, 171, 172);
+  align-self: center;
+  margin-top: 20rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}

@@ -1,0 +1,40 @@
+<view>
+  <view>
+
+    <view class = 'logo'>
+      <text>这里是皇帝的logo</text>
+    </view>
+
+
+    <view class="switch_title">
+      <view class="switch_tab">
+        <view wx:for="{{switch_list}}" class="{{selected==index?'hidden':'show'}}" data-index='{{index}}' bindtap="selected">{{item}}
+        <view class="{{selected==index?'switch_underline':''}}">
+        </view>
+        </view>
+      </view>
+      <view wx:if="{{selected == 0}}">
+
+        <view class="project" wx:for="{{list}}">
+
+
+           <view class="project1">
+            <view bindtap="goDetail" data-id="{{item._id}}">
+              <view>
+                项目名称：{{item.Detail_Information}} 
+              </view>
+              <view>
+                项目要求：{{item.Limitation}}
+              </view>
+            </view>
+          </view>
+
+          <view class="project2">
+            <label> title </label>
+          </view>
+        </view> 
+      </view>
+      <view wx:if="{{selected == 1}}">selected1</view>
+    </view>
+  </view>
+</view>
