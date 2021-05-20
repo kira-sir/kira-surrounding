@@ -19,6 +19,21 @@ Page({
       console.log('index请求Projects失败', err)
     })
   },
+  onShow(){
+    wx.cloud.database().collection("Projects")
+    .get()
+    .then(res => {
+      console.log('onShow请求Projects成功', res.data)
+      this.setData({
+        list:res.data
+      })
+    })
+    .catch(err =>{
+      console.log('onShow请求Projects失败', err)
+    })
+  },
+
+
 
 
   //切换选择框

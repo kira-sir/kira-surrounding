@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "测试时间",
+          "pathName": "pages/index_test/index_test",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

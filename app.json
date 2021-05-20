@@ -12,5 +12,38 @@
     "navigationBarBackgroundColor": "#87CEFA",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/home.png",
+        "selectedIconPath": "pages/image/home-active.png"
+      },
+      {
+        "pagePath": "pages/base/base",
+        "text": "库",
+        "iconPath": "pages/image/base.png",
+        "selectedIconPath": "pages/image/base-active.png"
+      },
+      {
+        "pagePath":  "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "pages/image/publish.png",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "pages/image/message.png",
+        "selectedIconPath": "pages/image/message-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/image/me.png",
+        "selectedIconPath": "pages/image/me-active.png"
+      }
+    ]
+  }
 }
